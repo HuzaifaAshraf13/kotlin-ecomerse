@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Product 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/productImage1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/product_1_image"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="Product 1 Image"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/productName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/productPrice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$19.99"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/addToCartButton1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Add to Cart"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#FF5722"
+            android:layout_gravity="center"
+            android:cornerRadius="8dp"/>
+    </LinearLayout>
+
+    <!-- Product 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/productImage2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/product_2_image"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="Product 2 Image"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/productName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product 2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/productPrice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$29.99"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/addToCartButton2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Add to Cart"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#FF5722"
+            android:layout_gravity="center"
+            android:cornerRadius="8dp"/>
+    </LinearLayout>
+
+    <!-- Product 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/productImage3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/product_3_image"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="Product 3 Image"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/productName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product 3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/productPrice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$39.99"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/addToCartButton3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Add to Cart"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#FF5722"
+            android:layout_gravity="center"
+            android:cornerRadius="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
